@@ -1,12 +1,14 @@
 ﻿- [RemoteLoader](#RemoteLoader)
   - [简介](#%E7%AE%80%E4%BB%8B)
   - [目录结构](#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84)
+  - [参考](#%E5%8F%82%E8%80%83)
   - [联系方式](#%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)
   - [赞助](#%E8%B5%9E%E5%8A%A9)
 
 # RemoteLoader
 
 Qml热加载
+
 ## 简介
 
 使用Go语言搭建一个简单的http文件服务器，提供Qml文件。
@@ -23,6 +25,16 @@ Qml热加载
 
 - QmlFiles 
    Qml文件
+
+## 参考
+
+http://www.terrariumapp.com/
+
+https://github.com/penk/qml-livereload/
+
+这两个例子的核心，都是直接clearCache再load，跟我想出来的一样。
+
+整体刷新，不太好。得搞局部刷新。
 
 ## 联系方式
 
